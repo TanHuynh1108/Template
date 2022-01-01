@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: none;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,7 +13,7 @@ body {
     background-image:linear-gradient(to right, #4daf54, #3d8880);
 }
 #card {
-    margin:120px auto;
+    margin: 120px 0;
     width: 320px;
     height: 450px;
     border-radius: 10px;
