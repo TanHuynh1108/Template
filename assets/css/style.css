@@ -13,7 +13,7 @@ body {
     background-image:linear-gradient(to right, #4daf54, #3d8880);
 }
 #card {
-    margin:120px auto;
+    margin:auto;
     width: 320px;
     height: 450px;
     border-radius: 10px;
