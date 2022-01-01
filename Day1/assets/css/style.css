@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(to right, #4daf54, #3d8880);
+}
+#card {
+    margin:120px auto;
+    width: 320px;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #272d40;
+}
+#card:hover .card__description-title {
+   transform: translate(-37px, -70px);
+}
+#card:hover .card__description-price {
+    transform: translate(-117px, -70px);
+}
+.card__icon {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+.card__icon-heart {
+    cursor: pointer;
+    z-index: 1;
+}
+.card__shoes {
+    display: flex;
+    margin-right: 15px;
+}
+#card:hover:hover .card__shoes-img{
+    transform: translateY(-90px) rotate(-20deg);
+}
+.card__shoes-img {
+    margin: auto;
+    width:250px;
+    height: 167px;
+    transition: 0.5s;
+}
+
+.card__description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__description-title {
+    text-align: center;
+    width: 100%;
+    color:#4daf54;
+    font-size: 25px;
+    font-weight: 1000;
+    transition: 0.5s;
+}
+
+.card__description-price {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.card__detail {
+    margin-top: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+#card:hover .card__detail {
+    visibility: visible;
+    transform: translateY(-200px);
+    transition: 0.5s;
+    opacity: 1;
+}
+.card__detail-size {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.card__detail-size h3 {
+    margin-right: 10px;
+    font-size: 17px;
+}
+.card__detail-size span {
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    width: 30px;
+    height: 29px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.card__detail-color {
+    display: flex;
+    margin: 10px 0;
+}
+.card__detail-color h3 {
+    color: #fff;
+    font-size: 17px;
+    margin-right: 14px;
+}
+.card__detail-color span {
+    margin: 0 5px;
+    cursor: pointer;
+}
+.card__detail-green {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.card__detail-red {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.card__detail-black {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.card__detail-button {
+    margin: 25px 0;
+}
+
+.card__detail-button button{
+    width: 95px;
+    height: 35px;
+    color: #fff;
+    background-color:#4daf54;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    display:inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card__detail-button button:hover {
+    transform: scale(0.9);
+}
