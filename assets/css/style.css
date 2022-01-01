@@ -6,13 +6,11 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
     height: 100vh;
     background-image:linear-gradient(to right, #4daf54, #3d8880);
 }
 #card {
-    margin: 120px 0;
+    margin: 120px auto;
     width: 320px;
     height: 450px;
     border-radius: 10px;
@@ -32,6 +30,7 @@ body {
     color: #fff;
     margin: 15px 15px;
     cursor: pointer;
+    padding-top: 10px;
 }
 .card__icon-heart {
     cursor: pointer;
