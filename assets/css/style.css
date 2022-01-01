@@ -8,12 +8,11 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     background-image:linear-gradient(to right, #4daf54, #3d8880);
 }
 #card {
-    margin:auto;
+    margin: 120px 0;
     width: 320px;
     height: 450px;
     border-radius: 10px;
